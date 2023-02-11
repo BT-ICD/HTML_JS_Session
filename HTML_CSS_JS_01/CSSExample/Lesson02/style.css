@@ -1,0 +1,40 @@
+/*
+Learing reference: 
+    https://www.youtube.com/watch?v=OXGznpKZ_sA 
+*/
+/* Example of element as a selector */
+body{
+    font-size: 22px;
+}
+
+p{
+color:purple;
+}
+/* Example of a class selector */
+/* class start with . */
+/* Class selector has more specificity then other selector  */
+.gray{
+    color:gray;
+}
+
+/* Example of id as a selector */
+#second{
+    font-style: italic;
+}
+
+/* Example of group selector (to select multiple elements) */
+h1, h2{
+    color:blue
+}
+
+/* Any span element inside a paragraph element */
+p span{
+    text-transform: uppercase;
+    background-color: yellow;
+
+}
+/* Example of univeral selector */
+/* This will select everything on a page */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
