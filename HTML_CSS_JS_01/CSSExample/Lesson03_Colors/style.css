@@ -1,0 +1,15 @@
+/*
+There are 140 colors available in HTML
+*/
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    /* background-color: beige; */
+    background:papayawhip;
+    color: darkblue;
+    
+}
+p{
+    color:brown
+}
