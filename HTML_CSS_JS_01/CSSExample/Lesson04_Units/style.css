@@ -1,0 +1,29 @@
+/* 
+
+Refrences:
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units 
+1px = 196th of inch
+Default font size is 16 px
+Avoid absloute value for font size such as 32px
+*/
+
+
+/* p{
+    font-size:16px ;
+} */
+h1{
+    border: 2px dashed red;
+    /* By default block level element such as h1 take 100% */
+    width: 20%; 
+}
+
+/* rem stands for font size of a root element */
+p{
+    /* 1 rem (root size is the default by the browser 1- root em ) */
+    /* font-size: 1rem  is default*/
+    font-size: 2rem;
+    /* Number of characters in a one line */
+    width: 30ch;
+}
+
+/* em stands for - emplified  */
